@@ -1,0 +1,107 @@
+{
+  "rms_norm1_kernel": {
+    "avg": 0.024824242424242422,
+    "runtime_pct": 0.00015797588656067535,
+    "times_called": 66
+  },
+  "fused_dequantize1_NT_matmul5_kernel_2": {
+    "avg": 1.243136,
+    "runtime_pct": 0.003835654525693198,
+    "times_called": 32
+  },
+  "fused_rope_kernel": {
+    "avg": 0.011115913846153846,
+    "runtime_pct": 0.005573389277860627,
+    "times_called": 5200
+  },
+  "batch_prefill_ragged_kv_kernel": {
+    "avg": 0.129024,
+    "runtime_pct": 0.00039809923413290193,
+    "times_called": 32
+  },
+  "tir_kv_cache_transpose_append_kernel": {
+    "avg": 0.010208492307692307,
+    "runtime_pct": 0.005118418724565882,
+    "times_called": 5200
+  },
+  "fused_dequantize2_fused_NT_matmul6_add1_kernel_2": {
+    "avg": 0.800768,
+    "runtime_pct": 0.002470742865808963,
+    "times_called": 32
+  },
+  "fused_dequantize3_NT_matmul7_kernel_2": {
+    "avg": 6.772736,
+    "runtime_pct": 0.02089705027424614,
+    "times_called": 32
+  },
+  "fused_split1_silu1_multiply1_kernel": {
+    "avg": 0.045056,
+    "runtime_pct": 0.00013901878017339432,
+    "times_called": 32
+  },
+  "fused_dequantize4_fused_NT_matmul8_add1_kernel_2": {
+    "avg": 3.301376,
+    "runtime_pct": 0.010186285165432348,
+    "times_called": 32
+  },
+  "index_kernel": {
+    "avg": 0.0,
+    "runtime_pct": 0.0,
+    "times_called": 2
+  },
+  "fused_dequantize_NT_matmul14_kernel": {
+    "avg": 5.572576492307692,
+    "runtime_pct": 0.17462654500417055,
+    "times_called": 325
+  },
+  "fused_dequantize_take1_kernel": {
+    "avg": 0.020086885448916406,
+    "runtime_pct": 0.0006255845107802744,
+    "times_called": 323
+  },
+  "rms_norm2_kernel": {
+    "avg": 0.03710570972886762,
+    "runtime_pct": 0.03813537901574703,
+    "times_called": 10659
+  },
+  "fused_dequantize1_NT_matmul10_kernel": {
+    "avg": 0.14904113931888543,
+    "runtime_pct": 0.0742676237899047,
+    "times_called": 5168
+  },
+  "batch_decode_paged_kv_kernel": {
+    "avg": 0.15366974613003095,
+    "runtime_pct": 0.07657407173369057,
+    "times_called": 5168
+  },
+  "fused_dequantize2_fused_NT_matmul11_add2_kernel": {
+    "avg": 0.10436557275541795,
+    "runtime_pct": 0.05200566185577433,
+    "times_called": 5168
+  },
+  "fused_dequantize3_NT_matmul12_kernel": {
+    "avg": 0.7318524829721362,
+    "runtime_pct": 0.3646841746075879,
+    "times_called": 5168
+  },
+  "fused_split2_silu2_multiply2_kernel": {
+    "avg": 0.009992718266253869,
+    "runtime_pct": 0.004979399944392488,
+    "times_called": 5168
+  },
+  "fused_dequantize4_fused_NT_matmul13_add2_kernel": {
+    "avg": 0.3296962972136223,
+    "runtime_pct": 0.16428860298763998,
+    "times_called": 5168
+  },
+  "batch_prefill_paged_kv_kernel": {
+    "avg": 0.663552,
+    "runtime_pct": 0.0010236837449131766,
+    "times_called": 16
+  },
+  "merge_state_inplace_kernel": {
+    "avg": 0.008192,
+    "runtime_pct": 1.263807092485403e-05,
+    "times_called": 16
+  }
+}

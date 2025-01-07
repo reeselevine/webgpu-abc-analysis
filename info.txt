@@ -1,0 +1,4 @@
+Machine: Apple M3
+Browser: Chromium
+Model: Llama-3.2-1B-Instruct-q4f32_1-MLC
+Prompt: what year was paper invented?
