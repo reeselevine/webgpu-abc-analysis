@@ -112,4 +112,4 @@ def plot_avg_ratio(file1, file2):
     plt.savefig("ratio_graph.png", format='png')
 
 # Example usage:
-plot_avg_ratio('../checks-enabled.json', '../checks-disabled.json')
+plot_avg_ratio('../checks-enabled.json', 'checks-disabled.json')
