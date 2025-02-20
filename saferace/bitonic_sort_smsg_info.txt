@@ -1,0 +1,32 @@
+[
+{
+  "entryPoint": "computeMain",
+  "contentHash": 15158310862804694385,
+  "storageRewrites": 0,
+  "workgroupRewrites": 1,
+  "atomicLoads": 6,
+  "atomicStores": 4,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "atomicToZero",
+  "contentHash": 1571120803098663678,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "contentHash": 7508920801387233695,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+}
+]
