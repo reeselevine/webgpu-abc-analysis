@@ -19,3 +19,7 @@ Download from console after running shaders and use `parse_durations.py` to get 
 ## Graph Duration Differences
 
 Given two sets of duration data, use `graph_differences.py` to show the difference in performance between them.
+
+## Fuzzing Results
+
+Analyze sqlite database with saferace fuzzing results using `fuzzing_results.py`

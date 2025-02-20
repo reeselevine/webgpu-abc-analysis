@@ -1,0 +1,22 @@
+Mutation testing
+M3, 5 minutes
+Basic Private: 3/66
+Basic Workgroup: 3/67
+Basic Device: 25/67
+UndefArith Private: 5/93
+UndefArith Workgroup: 3/99
+UndefArith Device: 4/112
+ControlFlow Private: 8/97
+ControlFlow Workgroup: 1/99
+ControlFlow Device: 37/98
+
+M2, 5 minutes
+Basic Private: 1/101
+Basic Workgroup: 3/92
+Basic Device: 18/97
+UndefArith Private: 4/94 - note: see space bounds violations with bounds checking turned off
+UndefArith Workgroup: 4/109
+UndefArith Device: 3/98
+ControlFlow Private: 6/99
+ControlFlow Workgroup: 0/100
+ControlFlow Device: 22/108
