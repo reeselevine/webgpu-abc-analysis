@@ -1,9 +1,10 @@
-[
-{
+[{
   "entryPoint": "computeMain",
+  "raiseTimeUs": "425",
+  "smsgTimeUs": "301",
   "contentHash": 15158310862804694385,
   "storageRewrites": 0,
-  "workgroupRewrites": 1,
+  "workgroupRewrites": 5,
   "atomicLoads": 6,
   "atomicStores": 4,
   "f32Rewrites": 0,
@@ -11,6 +12,8 @@
 },
 {
   "entryPoint": "atomicToZero",
+  "raiseTimeUs": "11",
+  "smsgTimeUs": "0",
   "contentHash": 1571120803098663678,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -21,6 +24,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "140",
+  "smsgTimeUs": "41",
   "contentHash": 7508920801387233695,
   "storageRewrites": 0,
   "workgroupRewrites": 0,

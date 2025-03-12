@@ -1,6 +1,8 @@
 [
 {
   "entryPoint": "main",
+  "raiseTimeUs": "188",
+  "smsgTimeUs": "66",
   "contentHash": 5842611444846927061,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -11,6 +13,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "145",
+  "smsgTimeUs": "37",
   "contentHash": 16539594033521639767,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -21,6 +25,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "1202",
+  "smsgTimeUs": "620",
   "contentHash": 9780870723919895998,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -31,6 +37,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "466",
+  "smsgTimeUs": "315",
   "contentHash": 11315602754111036741,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -41,6 +49,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "46",
+  "smsgTimeUs": "4",
   "contentHash": 16607862309598108368,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -51,6 +61,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "38",
+  "smsgTimeUs": "3",
   "contentHash": 5154713857449257996,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -61,6 +73,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "387",
+  "smsgTimeUs": "213",
   "contentHash": 6744851065883186015,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -71,6 +85,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "265",
+  "smsgTimeUs": "117",
   "contentHash": 12041787755562865401,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -81,6 +97,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "140",
+  "smsgTimeUs": "53",
   "contentHash": 50825368180361973,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -91,6 +109,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "42",
+  "smsgTimeUs": "5",
   "contentHash": 15225967193160328467,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -101,6 +121,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "100",
+  "smsgTimeUs": "28",
   "contentHash": 7089598260487555587,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -111,6 +133,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "237",
+  "smsgTimeUs": "101",
   "contentHash": 17795683025577674623,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -121,6 +145,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "211",
+  "smsgTimeUs": "90",
   "contentHash": 11243471467991885953,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -131,6 +157,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "264",
+  "smsgTimeUs": "95",
   "contentHash": 17602211769573548285,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -141,6 +169,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "551",
+  "smsgTimeUs": "252",
   "contentHash": 12704943630291070340,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -151,6 +181,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "94",
+  "smsgTimeUs": "10",
   "contentHash": 1109789709115485158,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -161,6 +193,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "123",
+  "smsgTimeUs": "13",
   "contentHash": 1600115135089075151,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -171,6 +205,8 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "601",
+  "smsgTimeUs": "104",
   "contentHash": 10099588836708168346,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -181,7 +217,105 @@
 },
 {
   "entryPoint": "main",
+  "raiseTimeUs": "101",
+  "smsgTimeUs": "9",
   "contentHash": 7991963935882508052,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "raiseTimeUs": "1106",
+  "smsgTimeUs": "615",
+  "contentHash": 9671231346746491606,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "raiseTimeUs": "50",
+  "smsgTimeUs": "5",
+  "contentHash": 17647538546771207781,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "raiseTimeUs": "117",
+  "smsgTimeUs": "51",
+  "contentHash": 9656698820267638442,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "raiseTimeUs": "268",
+  "smsgTimeUs": "97",
+  "contentHash": 3527598875915827302,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "raiseTimeUs": "802",
+  "smsgTimeUs": "433",
+  "contentHash": 7176431521977071661,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "raiseTimeUs": "450",
+  "smsgTimeUs": "199",
+  "contentHash": 4155174855487464214,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "raiseTimeUs": "311",
+  "smsgTimeUs": "133",
+  "contentHash": 5836397146068976200,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "main",
+  "raiseTimeUs": "250",
+  "smsgTimeUs": "100",
+  "contentHash": 9185931940066749854,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
   "atomicLoads": 0,

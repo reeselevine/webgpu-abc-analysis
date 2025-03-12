@@ -1,0 +1,12 @@
+[{
+  "entryPoint": "main",
+  "raiseTimeUs": "141",
+  "smsgTimeUs": "80",
+  "contentHash": 3257157982472378288,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+}]

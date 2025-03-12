@@ -1,5 +1,8 @@
-[{
+[
+{
   "entryPoint": "reshape_kernel",
+  "raiseTimeUs": "82",
+  "smsgTimeUs": "16",
   "contentHash": 16352936968560856899,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -10,6 +13,8 @@
 },
 {
   "entryPoint": "reshape1_kernel",
+  "raiseTimeUs": "62",
+  "smsgTimeUs": "12",
   "contentHash": 11690683460555829956,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -20,6 +25,8 @@
 },
 {
   "entryPoint": "fused_dequantize1_NT_matmul_kernel_1",
+  "raiseTimeUs": "2544",
+  "smsgTimeUs": "602",
   "contentHash": 807445824737409052,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -30,6 +37,8 @@
 },
 {
   "entryPoint": "fused_dequantize4_fused_NT_matmul8_add1_kernel_1",
+  "raiseTimeUs": "1776",
+  "smsgTimeUs": "611",
   "contentHash": 3975601949136840814,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -39,17 +48,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize_NT_matmul15_kernel",
-  "contentHash": 5835683259081242244,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "fused_dequantize4_fused_NT_matmul13_add2_kernel",
+  "raiseTimeUs": "348",
+  "smsgTimeUs": "110",
   "contentHash": 12389724223289626652,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -60,6 +61,8 @@
 },
 {
   "entryPoint": "reshape2_kernel",
+  "raiseTimeUs": "58",
+  "smsgTimeUs": "12",
   "contentHash": 12302267305974455668,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -69,17 +72,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize1_NT_matmul5_kernel_2",
-  "contentHash": 16669854098018000011,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "fused_dequantize1_NT_matmul_kernel",
+  "raiseTimeUs": "2394",
+  "smsgTimeUs": "435",
   "contentHash": 11374701576908582124,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -89,8 +84,10 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_split2_silu2_multiply2_kernel",
-  "contentHash": 5112812877249689378,
+  "entryPoint": "fused_dequantize_NT_matmul15_kernel",
+  "raiseTimeUs": "5773",
+  "smsgTimeUs": "1184",
+  "contentHash": 5835683259081242244,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
   "atomicLoads": 0,
@@ -100,6 +97,8 @@
 },
 {
   "entryPoint": "fused_dequantize2_fused_NT_matmul11_add2_kernel",
+  "raiseTimeUs": "1823",
+  "smsgTimeUs": "502",
   "contentHash": 7634877966289776596,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -109,7 +108,57 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "softmax_with_chunked_sum_kernel",
+  "raiseTimeUs": "5579",
+  "smsgTimeUs": "2272",
+  "contentHash": 5932572756335021856,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "fused_split2_silu2_multiply2_kernel",
+  "raiseTimeUs": "224",
+  "smsgTimeUs": "38",
+  "contentHash": 5112812877249689378,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "fused_dequantize1_NT_matmul5_kernel_2",
+  "raiseTimeUs": "6531",
+  "smsgTimeUs": "1699",
+  "contentHash": 16669854098018000011,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "take1_kernel",
+  "raiseTimeUs": "69",
+  "smsgTimeUs": "17",
+  "contentHash": 5170823772946031536,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "fused_dequantize4_fused_NT_matmul3_add_kernel_2",
+  "raiseTimeUs": "4773",
+  "smsgTimeUs": "1066",
   "contentHash": 2608506477924677783,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -120,6 +169,8 @@
 },
 {
   "entryPoint": "fused_dequantize2_fused_NT_matmul6_add1_kernel_2",
+  "raiseTimeUs": "5726",
+  "smsgTimeUs": "1490",
   "contentHash": 10994287816032647722,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -129,47 +180,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "take1_kernel",
-  "contentHash": 5170823772946031536,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "tree_attn_paged_kv_kernel",
-  "contentHash": 12290058386666764187,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "reshape5_kernel",
-  "contentHash": 15938841473444679205,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "index_kernel",
-  "contentHash": 5883418998664366602,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "tir_kv_cache_transpose_append_kernel",
+  "raiseTimeUs": "307",
+  "smsgTimeUs": "129",
   "contentHash": 4336324740218849348,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -179,7 +192,21 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "reshape5_kernel",
+  "raiseTimeUs": "46",
+  "smsgTimeUs": "9",
+  "contentHash": 15938841473444679205,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "tir_kv_cache_debug_get_kv_kernel",
+  "raiseTimeUs": "417",
+  "smsgTimeUs": "148",
   "contentHash": 8731358359036229775,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -189,8 +216,10 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "rms_norm1_kernel",
-  "contentHash": 300912984240986274,
+  "entryPoint": "index_kernel",
+  "raiseTimeUs": "46",
+  "smsgTimeUs": "11",
+  "contentHash": 5883418998664366602,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
   "atomicLoads": 0,
@@ -200,6 +229,8 @@
 },
 {
   "entryPoint": "fused_reshape10_reshape11_kernel",
+  "raiseTimeUs": "99",
+  "smsgTimeUs": "23",
   "contentHash": 7199373629145838733,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -209,37 +240,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "softmax_with_chunked_sum_kernel",
-  "contentHash": 5932572756335021856,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "fused_dequantize3_NT_matmul2_kernel_1",
-  "contentHash": 4909180997435891301,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "apply_logit_bias_inplace_kernel",
-  "contentHash": 10560395330418253974,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "merge_state_inplace_kernel",
+  "raiseTimeUs": "607",
+  "smsgTimeUs": "318",
   "contentHash": 5285114249760798932,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -249,7 +252,45 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "rms_norm1_kernel",
+  "raiseTimeUs": "2464",
+  "smsgTimeUs": "636",
+  "contentHash": 300912984240986274,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "tree_attn_paged_kv_kernel",
+  "raiseTimeUs": "3192",
+  "smsgTimeUs": "1093",
+  "contentHash": 12290058386666764187,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "apply_logit_bias_inplace_kernel",
+  "raiseTimeUs": "204",
+  "smsgTimeUs": "77",
+  "contentHash": 10560395330418253974,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "fused_reshape8_reshape9_kernel",
+  "raiseTimeUs": "53",
+  "smsgTimeUs": "10",
   "contentHash": 9163602853255128020,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -259,7 +300,21 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "fused_dequantize3_NT_matmul2_kernel_1",
+  "raiseTimeUs": "3096",
+  "smsgTimeUs": "691",
+  "contentHash": 4909180997435891301,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "fused_split1_silu1_multiply1_kernel",
+  "raiseTimeUs": "80",
+  "smsgTimeUs": "26",
   "contentHash": 15411918392916896534,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -270,6 +325,8 @@
 },
 {
   "entryPoint": "batch_decode_paged_kv_sliding_window_kernel",
+  "raiseTimeUs": "2432",
+  "smsgTimeUs": "723",
   "contentHash": 2943744489459480344,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -280,6 +337,8 @@
 },
 {
   "entryPoint": "fused_dequantize2_fused_NT_matmul1_add_kernel",
+  "raiseTimeUs": "2615",
+  "smsgTimeUs": "630",
   "contentHash": 5107440292454637345,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -289,17 +348,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize3_NT_matmul7_kernel_1",
-  "contentHash": 6861265825915340010,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "fused_dequantize2_fused_NT_matmul6_add1_kernel_1",
+  "raiseTimeUs": "3438",
+  "smsgTimeUs": "710",
   "contentHash": 18360913710202804026,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -309,7 +360,33 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "fused_dequantize2_fused_NT_matmul1_add_kernel_2",
+  "raiseTimeUs": "4669",
+  "smsgTimeUs": "1038",
+  "contentHash": 5831874379699436111,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "fused_dequantize3_NT_matmul7_kernel_1",
+  "raiseTimeUs": "5770",
+  "smsgTimeUs": "1101",
+  "contentHash": 6861265825915340010,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "batch_prefill_ragged_kv_kernel",
+  "raiseTimeUs": "1923",
+  "smsgTimeUs": "615",
   "contentHash": 11031092756818527202,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -320,6 +397,8 @@
 },
 {
   "entryPoint": "fused_dequantize4_fused_NT_matmul8_add1_kernel",
+  "raiseTimeUs": "1837",
+  "smsgTimeUs": "436",
   "contentHash": 6907449261980261136,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -330,6 +409,8 @@
 },
 {
   "entryPoint": "fused_dequantize1_NT_matmul10_kernel",
+  "raiseTimeUs": "1921",
+  "smsgTimeUs": "631",
   "contentHash": 17806276976145345715,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -339,17 +420,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize2_fused_NT_matmul1_add_kernel_2",
-  "contentHash": 5831874379699436111,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "fused_rope_kernel",
+  "raiseTimeUs": "502",
+  "smsgTimeUs": "181",
   "contentHash": 9967868134798330818,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -359,17 +432,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize1_NT_matmul5_kernel",
-  "contentHash": 2700915972877385650,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "fused_dequantize3_NT_matmul7_kernel",
+  "raiseTimeUs": "2115",
+  "smsgTimeUs": "587",
   "contentHash": 3946719996894168870,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -379,7 +444,21 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "fused_dequantize1_NT_matmul5_kernel",
+  "raiseTimeUs": "3130",
+  "smsgTimeUs": "817",
+  "contentHash": 2700915972877385650,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "batch_prefill_paged_kv_sliding_window_kernel",
+  "raiseTimeUs": "3463",
+  "smsgTimeUs": "1061",
   "contentHash": 15727705099124001752,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -390,6 +469,8 @@
 },
 {
   "entryPoint": "take_kernel",
+  "raiseTimeUs": "133",
+  "smsgTimeUs": "34",
   "contentHash": 13987511213564854378,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -400,6 +481,8 @@
 },
 {
   "entryPoint": "scatter_probs_kernel",
+  "raiseTimeUs": "273",
+  "smsgTimeUs": "68",
   "contentHash": 18256971585580518987,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -409,37 +492,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "gather_probs_kernel",
-  "contentHash": 8980300230692214592,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "fused_dequantize4_fused_NT_matmul8_add1_kernel_2",
-  "contentHash": 17402569472779280644,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "reshape6_kernel",
-  "contentHash": 3606697245434388040,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "fused_dequantize1_NT_matmul5_kernel_1",
+  "raiseTimeUs": "2687",
+  "smsgTimeUs": "638",
   "contentHash": 15103240862252279322,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -449,8 +504,10 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "chunk_lse_kernel",
-  "contentHash": 16721274921422372448,
+  "entryPoint": "gather_probs_kernel",
+  "raiseTimeUs": "305",
+  "smsgTimeUs": "71",
+  "contentHash": 8980300230692214592,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
   "atomicLoads": 0,
@@ -459,18 +516,10 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "reshape4_kernel",
-  "contentHash": 11628598692884799520,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "rms_norm2_kernel",
-  "contentHash": 5390577517739172401,
+  "entryPoint": "reshape6_kernel",
+  "raiseTimeUs": "97",
+  "smsgTimeUs": "21",
+  "contentHash": 3606697245434388040,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
   "atomicLoads": 0,
@@ -480,6 +529,8 @@
 },
 {
   "entryPoint": "fused_dequantize4_fused_NT_matmul3_add_kernel_1",
+  "raiseTimeUs": "3097",
+  "smsgTimeUs": "727",
   "contentHash": 14069006466251844058,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -489,7 +540,45 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "rms_norm2_kernel",
+  "raiseTimeUs": "1853",
+  "smsgTimeUs": "236",
+  "contentHash": 5390577517739172401,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "fused_dequantize4_fused_NT_matmul8_add1_kernel_2",
+  "raiseTimeUs": "4685",
+  "smsgTimeUs": "1792",
+  "contentHash": 17402569472779280644,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "reshape4_kernel",
+  "raiseTimeUs": "93",
+  "smsgTimeUs": "22",
+  "contentHash": 11628598692884799520,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "fused_dequantize3_NT_matmul12_kernel",
+  "raiseTimeUs": "851",
+  "smsgTimeUs": "240",
   "contentHash": 5738676732052929306,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -500,26 +589,20 @@
 },
 {
   "entryPoint": "apply_penalty_inplace_kernel",
+  "raiseTimeUs": "890",
+  "smsgTimeUs": "478",
   "contentHash": 16588604012099815518,
-  "storageRewrites": 1,
+  "storageRewrites": 4,
   "workgroupRewrites": 0,
   "atomicLoads": 0,
   "atomicStores": 0,
-  "f32Rewrites": 1,
-  "f32Replacements": 6
-},
-{
-  "entryPoint": "fused_dequantize4_fused_NT_matmul3_add_kernel",
-  "contentHash": 6031808248937832573,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
+  "f32Rewrites": 4,
+  "f32Replacements": 24
 },
 {
   "entryPoint": "fused_dequantize1_NT_matmul_kernel_2",
+  "raiseTimeUs": "3411",
+  "smsgTimeUs": "1177",
   "contentHash": 8864245886036545795,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -530,6 +613,8 @@
 },
 {
   "entryPoint": "fused_split_silu_multiply_kernel",
+  "raiseTimeUs": "83",
+  "smsgTimeUs": "26",
   "contentHash": 15704009793066756160,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -539,7 +624,21 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "fused_dequantize4_fused_NT_matmul3_add_kernel",
+  "raiseTimeUs": "2778",
+  "smsgTimeUs": "678",
+  "contentHash": 6031808248937832573,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "copy_single_page_kernel",
+  "raiseTimeUs": "563",
+  "smsgTimeUs": "376",
   "contentHash": 12909135291688093892,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -549,8 +648,10 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize_NT_matmul14_kernel",
-  "contentHash": 1619074940885926384,
+  "entryPoint": "fused_dequantize2_fused_NT_matmul6_add1_kernel",
+  "raiseTimeUs": "2396",
+  "smsgTimeUs": "441",
+  "contentHash": 180558903689009264,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
   "atomicLoads": 0,
@@ -560,6 +661,8 @@
 },
 {
   "entryPoint": "batch_tree_attn_kernel",
+  "raiseTimeUs": "3334",
+  "smsgTimeUs": "974",
   "contentHash": 16733236859143418014,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -569,7 +672,21 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "fused_dequantize_NT_matmul14_kernel",
+  "raiseTimeUs": "3104",
+  "smsgTimeUs": "899",
+  "contentHash": 1619074940885926384,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "reshape3_kernel",
+  "raiseTimeUs": "56",
+  "smsgTimeUs": "11",
   "contentHash": 14396851259015080038,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -580,6 +697,8 @@
 },
 {
   "entryPoint": "reshape7_kernel",
+  "raiseTimeUs": "47",
+  "smsgTimeUs": "9",
   "contentHash": 17377238596143979328,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -589,17 +708,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize2_fused_NT_matmul6_add1_kernel",
-  "contentHash": 180558903689009264,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "compact_kv_copy_kernel",
+  "raiseTimeUs": "638",
+  "smsgTimeUs": "231",
   "contentHash": 12066795323027646081,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -609,17 +720,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize_NT_matmul4_kernel",
-  "contentHash": 11448679407924123564,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "apply_bitmask_inplace_kernel",
+  "raiseTimeUs": "677",
+  "smsgTimeUs": "205",
   "contentHash": 5529596278731346118,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -629,7 +732,33 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "fused_dequantize_NT_matmul4_kernel",
+  "raiseTimeUs": "5662",
+  "smsgTimeUs": "2324",
+  "contentHash": 11448679407924123564,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "chunk_lse_kernel",
+  "raiseTimeUs": "34924",
+  "smsgTimeUs": "13558",
+  "contentHash": 16721274921422372448,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "fused_dequantize_NT_matmul9_kernel",
+  "raiseTimeUs": "3986",
+  "smsgTimeUs": "1124",
   "contentHash": 15435594601848943961,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -639,27 +768,9 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "rms_norm_kernel",
-  "contentHash": 13996007280687571065,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "_scatter_hidden_states_kernel",
-  "contentHash": 8063660809143164669,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
   "entryPoint": "fused_dequantize3_NT_matmul2_kernel_2",
+  "raiseTimeUs": "6689",
+  "smsgTimeUs": "1103",
   "contentHash": 4149934049279889172,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -669,18 +780,10 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "fused_dequantize_take1_kernel",
-  "contentHash": 18289508099515069601,
-  "storageRewrites": 0,
-  "workgroupRewrites": 0,
-  "atomicLoads": 0,
-  "atomicStores": 0,
-  "f32Rewrites": 0,
-  "f32Replacements": 0
-},
-{
-  "entryPoint": "batch_decode_paged_kv_kernel",
-  "contentHash": 5519001682126932559,
+  "entryPoint": "rms_norm_kernel",
+  "raiseTimeUs": "4057",
+  "smsgTimeUs": "1566",
+  "contentHash": 13996007280687571065,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
   "atomicLoads": 0,
@@ -690,6 +793,8 @@
 },
 {
   "entryPoint": "fused_dequantize2_fused_NT_matmul1_add_kernel_1",
+  "raiseTimeUs": "2972",
+  "smsgTimeUs": "668",
   "contentHash": 6135814208873023593,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -699,8 +804,22 @@
   "f32Replacements": 0
 },
 {
-  "entryPoint": "_gather_hidden_states_kernel",
-  "contentHash": 2688491513896194347,
+  "entryPoint": "_scatter_hidden_states_kernel",
+  "raiseTimeUs": "296",
+  "smsgTimeUs": "33",
+  "contentHash": 8063660809143164669,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "batch_decode_paged_kv_kernel",
+  "raiseTimeUs": "1372",
+  "smsgTimeUs": "441",
+  "contentHash": 5519001682126932559,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
   "atomicLoads": 0,
@@ -710,6 +829,8 @@
 },
 {
   "entryPoint": "fused_dequantize3_NT_matmul2_kernel",
+  "raiseTimeUs": "1365",
+  "smsgTimeUs": "452",
   "contentHash": 511888558902562909,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -719,7 +840,33 @@
   "f32Replacements": 0
 },
 {
+  "entryPoint": "fused_dequantize_take1_kernel",
+  "raiseTimeUs": "110",
+  "smsgTimeUs": "24",
+  "contentHash": 18289508099515069601,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
+  "entryPoint": "_gather_hidden_states_kernel",
+  "raiseTimeUs": "89",
+  "smsgTimeUs": "30",
+  "contentHash": 2688491513896194347,
+  "storageRewrites": 0,
+  "workgroupRewrites": 0,
+  "atomicLoads": 0,
+  "atomicStores": 0,
+  "f32Rewrites": 0,
+  "f32Replacements": 0
+},
+{
   "entryPoint": "batch_prefill_paged_kv_kernel",
+  "raiseTimeUs": "1384",
+  "smsgTimeUs": "584",
   "contentHash": 14235563450491403491,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -730,6 +877,8 @@
 },
 {
   "entryPoint": "fused_dequantize3_NT_matmul7_kernel_2",
+  "raiseTimeUs": "2141",
+  "smsgTimeUs": "751",
   "contentHash": 13740830644512274517,
   "storageRewrites": 0,
   "workgroupRewrites": 0,
@@ -737,4 +886,5 @@
   "atomicStores": 0,
   "f32Rewrites": 0,
   "f32Replacements": 0
-}]
+}
+]

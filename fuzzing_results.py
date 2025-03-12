@@ -157,7 +157,7 @@ def graph_tracking(data):
         }
     )
 
-    fig, ax = plt.subplots(figsize=(12, 10))
+    fig, ax = plt.subplots(figsize=(20, 10))
 
     # Calculate positions with additional whitespace between frameworks
     x = []
@@ -182,7 +182,7 @@ def graph_tracking(data):
 
             if any(values):  # Only plot bars if there is at least one non-zero value
                 framework_browsers.append(browser)
-                x.append(position * (width + 0.05))  # Increase space between bars
+                x.append(position * (width + 0.03))  # Increase space between bars
                 bar_positions.append(position)
                 browser_labels.append(browser)
                 framework_has_data = True
@@ -209,11 +209,11 @@ def graph_tracking(data):
                 np.mean(x[-len(framework_browsers) :]) if len(x) > 0 else 0
             )
             framework_labels.append((framework_position, framework))
-            position += 0.4  # Add extra space between different frameworks
+            position += 0.2  # Add extra space between different frameworks
 
         # Set x-axis labels for browsers
         ax.set_xticks(x)
-        ax.set_xticklabels(browser_labels, rotation=45, fontsize=24)
+        ax.set_xticklabels(browser_labels, fontsize=24)
 
     # Add framework labels beneath the grouped browser labels
     for position, framework in framework_labels:
@@ -222,7 +222,7 @@ def graph_tracking(data):
     # Customize chart
     ax.set_ylabel("Fuzzing Time (minutes)", fontsize=28)
     ax.yaxis.set_tick_params(labelsize=24)
-    ax.legend(title="Vendors", title_fontsize=24, fontsize=24, loc="upper right")
+    ax.legend(title="Vendors", title_fontsize=24, fontsize=20, loc="upper right")
     plt.tight_layout()
     plt.savefig("tracking.pdf")
 
